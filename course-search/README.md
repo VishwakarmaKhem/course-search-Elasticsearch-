@@ -8,3 +8,9 @@
 ## Data Indexing
 - The app auto-indexes `sample-courses.json` on startup.
 - Verify: `curl http://localhost:9208/courses/_count`
+
+## Exposing an endpoint 
+- Text-base search on title and description
+- implemented pagination
+- optionally returns all the data
+- verify through postman: http://localhost:8081/api/search/courses/getCourses?pageSize=5&&pageNumber=1

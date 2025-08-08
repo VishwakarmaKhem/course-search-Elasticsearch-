@@ -39,7 +39,7 @@ public class Courses {
     private Double price;
 
     @Field(type = FieldType.Date, format = {}, pattern = "uuuu-MM-dd'T'HH:mm:ss'Z'")
-    private LocalDateTime nextSessionData;
+    private LocalDateTime nextSessionDate;
 
     @Field(type = FieldType.Long)
     private Long createdAt;
